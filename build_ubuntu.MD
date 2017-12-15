@@ -14,3 +14,10 @@
 8. sudo apt-get install -y docker-ce
 
 ```
+
+### install docker-compose
+
+```
+1. sudo curl -L https://github.com/docker/compose/releases/download/1.17.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+2. sudo chmod +x /usr/local/bin/docker-compose
+```
